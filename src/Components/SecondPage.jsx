@@ -17,18 +17,20 @@ const SecondPage = () => {
             loading="lazy"
           />
         ))}
-        <button
-          className="bg-gray-600 text-white px-6 py-2 cursor-pointer rounded-lg shadow-lg hover:bg-gray-500 transition duration-300"
-          onClick={() => navigate(-1)}
-        >
-          Previous
-        </button>
-        <button
-          className="bg-blue-600 text-white px-6 py-2 cursor-pointer rounded-lg shadow-lg hover:bg-blue-500 transition duration-300"
-          onClick={() => navigate("/third")}
-        >
-          Next
-        </button>
+        <div className="flex justify-center gap-6">
+          <button
+            className="bg-gray-600 text-white px-6 py-2 cursor-pointer rounded-lg shadow-lg hover:bg-gray-500 transition duration-300"
+            onClick={() => navigate(-1)}
+          >
+            Previous
+          </button>
+          <button
+            className="bg-blue-600 text-white px-6 py-2 cursor-pointer rounded-lg shadow-lg hover:bg-blue-500 transition duration-300"
+            onClick={() => navigate("/third")}
+          >
+            Next
+          </button>
+        </div>
       </div>
     </div>
   );
