@@ -23,7 +23,7 @@ const SecondPage = () => {
           Previous
         </button>
         <button
-          className="bg-blue-600 text-white px-6 py-2 rounded-lg shadow-lg hover:bg-blue-500 transition duration-300"
+          className="bg-blue-600 text-white px-6 py-2 cursor-pointer rounded-lg shadow-lg hover:bg-blue-500 transition duration-300"
           onClick={() => navigate("/third")}
         >
           Next

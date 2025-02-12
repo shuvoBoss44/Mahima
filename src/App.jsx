@@ -16,12 +16,12 @@ import LastPage from "./Components/LastPage";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path="/" element={<LoveDesign />} index />,
-      <Route path="/second" element={<LoveWebsite />} />,
-      <Route path="/third" element={<ThirdPage />} />,
-      <Route path="/fourth" element={<FourthPage />} />,
-      <Route path="/fifth" element={<Envelope />} />,
-      <Route path="/last" element={<LastPage />} />,
+      <Route path="/" element={<LoveDesign />} index />
+      <Route path="/second" element={<LoveWebsite />} />
+      <Route path="/third" element={<ThirdPage />} />
+      <Route path="/fourth" element={<FourthPage />} />
+      <Route path="/fifth" element={<Envelope />} />
+      <Route path="/last" element={<LastPage />} />
     </>
   )
 );
