@@ -8,6 +8,7 @@ const LastPage = () => {
       {/* Background Image */}
       <img
         src="/shuvo2.jpg"
+        loading="lazy"
         alt="Rose Background"
         className="absolute inset-0 w-full h-full object-cover opacity-20"
       />
@@ -22,6 +23,7 @@ const LastPage = () => {
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png" // WhatsApp icon image
           alt="WhatsApp"
+          loading="lazy"
           className="w-20 h-20 rounded-full shadow-lg cursor-pointer"
         />
 

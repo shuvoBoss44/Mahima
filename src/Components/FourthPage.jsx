@@ -10,6 +10,7 @@ const FourthPage = () => {
         <img
           src="https://images.pexels.com/photos/53141/rose-red-blossom-bloom-53141.jpeg?cs=srgb&dl=pexels-pixabay-53141.jpg&fm=jpg"
           alt="Rose Background"
+          loading="lazy"
           className="absolute inset-0 w-full h-full object-cover opacity-20"
         />
 
